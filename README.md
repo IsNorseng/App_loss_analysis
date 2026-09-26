@@ -1,7 +1,24 @@
-"The new major project as part of my studies involves analyzing the losses of the application. Case: Despite significant investments in advertising, the company has been experiencing losses for the past few months. The task is to understand the reasons and help the company turn a profit. Here's what was achieved during the project:
+# Анализ экономики приложения
 
-Conducted an analysis of business indicators.
-Calculated marketing and product metrics (LTV, CAC, retention rate, DAU, WAU, MAU, and others).
-Utilized cohort analysis and functions to calculate metrics.
-Drew conclusions about the reasons for the losses based on the calculated indicators and generated graphs.
-Tools used: #Python #pandas #matplotlib #seaborn"
+Учебный кейс по продуктовой аналитике: оценить, как приложение привлекает пользователей и окупает маркетинговые расходы.
+
+## Вопросы
+
+- какие каналы и устройства приводят пользователей;
+- как меняются удержание и выручка по когортам;
+- какой LTV формируется у привлечённых пользователей;
+- покрывает ли доход затраты на привлечение (CAC и окупаемость).
+
+## Подход
+
+В ноутбуке подготовлены когорты, расчёты удержания, LTV и CAC, а также срезы по источникам и устройствам. Графики и промежуточные таблицы используются для поиска расхождений между рекламными расходами, активностью и доходом.
+
+## Запуск
+
+Откройте [ноутбук](Проект%20по%20анализу%20убытков.ipynb) в Jupyter. Потребуются Python, pandas, numpy, matplotlib и seaborn; исходные CSV-файлы должны быть размещены по путям из ноутбука.
+
+## Ограничения
+
+В сохранённом состоянии ноутбука есть незавершённые ячейки и ошибки выполнения; часть расчётов нужно повторить перед использованием. Графики не считаются воспроизводимым результатом, пока не приложены данные и не зафиксировано окружение. Репозиторий показывает ход анализа и структуру продуктовых метрик, но не подтверждает финансовый эффект для реального приложения.
+
+**Инструменты:** Python, pandas, когортный анализ, LTV, CAC, retention.
